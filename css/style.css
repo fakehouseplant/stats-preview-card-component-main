@@ -16,6 +16,12 @@ body {
     
 }
 
+.backgroundImage {
+    background-image: url(images/image-header-mobile.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 main {
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
@@ -47,3 +53,4 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
