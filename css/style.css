@@ -32,7 +32,7 @@ main {
 }
 
 img {
-    /* border-radius: 15px 15px 0 0; */
+    border-radius: 15px 15px 0 0;
     filter: opacity(0.6);
     max-width: 100%;
 }
