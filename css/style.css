@@ -4,53 +4,84 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-body {
-    align-items: center;
-    background-color: hsl(233, 47%, 7%);
-    color: hsla(0, 0%, 100%, 0.75);
-    display: flex;
-    flex-direction: column;
-    font-family: 'Inter', sans-serif;
-    justify-content: space-evenly;
-    text-align: center;
-    
-}
+/* colors & font
 
-.backgroundImage {
-    background-image: url(images/image-header-mobile.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+color: hsla(0, 0%, 100%, 0.6);
+
+    
+   */
+
+/*image styles*/
+body {
+    background-color: hsl(233, 47%, 7%);
 }
 
 main {
     background-color: hsl(244, 38%, 16%);
-    border-radius: 10px;
-    height: 800px;
-    margin: 100px;
-    width: 85%;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    margin: auto;
+    max-width: 85%;
+    margin-top: 20%;
+    text-align: center;
 }
 
-.whiteFont {
+.violetBackground {
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 15px 15px 0 0;
+}
+
+img {
+    /* border-radius: 15px 15px 0 0; */
+    filter: opacity(0.6);
+    max-width: 100%;
+}
+
+.text {
+    padding: 0 5% 0 5%;
+}
+
+ul {
+    list-style: none;
+    padding: 5% 0 5% 0;
+}
+
+li:nth-child(even) {
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    text-transform: uppercase;
+}
+
+li:nth-child(odd) {
+    /* font-size: 2em; */
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.75em;
+}
+
+main, li:nth-child(odd) {
+    font-size: 1.5em;
     color: hsl(0, 0%, 100%);
 }
 
-.trnsWhiteFont {
-    color: hsla(0, 0%, 100%, 0.6);
-} 
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-/* header {
-
+p, li:nth-child(even) {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: .7em;
 }
 
-footer {
-
+.attribute {
+    font-size: 15px;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+a:link {
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
